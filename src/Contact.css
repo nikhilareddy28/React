@@ -1,0 +1,9 @@
+.info{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    gap: 20px;
+}
+.style{
+    text-align: left;
+}
