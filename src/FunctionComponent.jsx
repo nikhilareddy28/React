@@ -1,12 +1,21 @@
 import React from "react";
 import "./FunctionComponent.css"
+// import Myimage from "./assets/react.svg"
 
-const FunctionComponent = () => {
+const FunctionComponent = (prop) => {
+  console.log(prop);
     return(
         <>
-       <div className="box"></div>
-        <marquee> nikhila</marquee>,
-        <h1 className="heading"> Function - component</h1>
+        
+             <div className="card1">
+                <div className="image"> <img src="{prop.data.image} "alt="image"></img></div>
+                <div className="info">
+                  <div>price: {prop.data.price} </div>
+                    <div>brand: {prop.data.brand}</div>
+                </div>
+             </div>
+        
+           
         </>
     )
 };

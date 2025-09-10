@@ -4,10 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import H1 from './H1'
 import Contact from './contact'
+import FunctionComponent from './FunctionComponent'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+//   const [count, setCount] = useState(0)
+    var images=[{
+       "image":reactLogo,
+       "price":12000,
+       "brand": "crocs"
+
+    },{"image":reactLogo,
+       "price":19000,
+       "brand": "sketchers"}]
 
   return (
     <>
@@ -32,8 +41,14 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
       <H1 />
-      <Contact />
-     
+      {/* <Contact /> */}
+      <div className="parent">
+    {
+        images.map(ele=>{
+          return  <FunctionComponent data={ele}/>
+        })
+    }
+    </div>
     </>
   )
 }
