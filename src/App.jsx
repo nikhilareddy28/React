@@ -5,18 +5,22 @@ import './App.css'
 import H1 from './H1'
 import Contact from './contact'
 import FunctionComponent from './FunctionComponent'
+import Component1 from './Component1'
+import Component2 from './Component2'
+import Task from './Task'
 
 
-function App() {
-//   const [count, setCount] = useState(0)
-    var images=[{
-       "image":reactLogo,
-       "price":12000,
-       "brand": "crocs"
 
-    },{"image":reactLogo,
-       "price":19000,
-       "brand": "sketchers"}]
+ function App() {
+// //   const [count, setCount] = useState(0)
+//     var images=[{
+//        "image":reactLogo,
+//        "price":12000,
+//        "brand": "crocs"
+
+//     },{"image":reactLogo,
+//        "price":19000,
+//        "brand": "sketchers"}]
 
   return (
     <>
@@ -40,17 +44,21 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <H1 />
+      {/* <H1 /> */}
       {/* <Contact /> */}
-      <div className="parent">
+      {/* <div className="parent">
     {
         images.map(ele=>{
           return  <FunctionComponent data={ele}/>
         })
     }
-    </div>
+    </div> */}
+      {/* <Component1 />
+      <Component2 /> */}
+      <Task/>
     </>
   )
+
 }
 
 export default App
