@@ -8,19 +8,20 @@ import FunctionComponent from './FunctionComponent'
 import Component1 from './Component1'
 import Component2 from './Component2'
 import Task from './Task'
+import Mental from './test'
 
 
 
- function App() {
-// //   const [count, setCount] = useState(0)
-//     var images=[{
-//        "image":reactLogo,
-//        "price":12000,
-//        "brand": "crocs"
+function App() {
+  // //   const [count, setCount] = useState(0)
+  //     var images=[{
+  //        "image":reactLogo,
+  //        "price":12000,
+  //        "brand": "crocs"
 
-//     },{"image":reactLogo,
-//        "price":19000,
-//        "brand": "sketchers"}]
+  //     },{"image":reactLogo,
+  //        "price":19000,
+  //        "brand": "sketchers"}]
 
   return (
     <>
@@ -55,7 +56,8 @@ import Task from './Task'
     </div> */}
       {/* <Component1 />
       <Component2 /> */}
-      <Task/>
+      {/* <Task /> */}
+      <Mental />
     </>
   )
 

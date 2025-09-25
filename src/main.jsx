@@ -5,8 +5,5 @@ import App from './App.jsx'
 // import FunctionComponent from './FunctionComponent.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-    {/* <FunctionComponent /> */}
-  </StrictMode>,
+  <App />
 )
