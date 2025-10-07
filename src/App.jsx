@@ -9,6 +9,7 @@ import Component1 from './Component1'
 import Component2 from './Component2'
 import Task from './Task'
 import Mental from './test'
+import Routing_Mechanism from './Routing_Mechanism'
 
 
 
@@ -57,7 +58,8 @@ function App() {
       {/* <Component1 />
       <Component2 /> */}
       {/* <Task /> */}
-      <Mental />
+      {/* <Mental /> */}
+      <Routing_Mechanism/>
     </>
   )
 
