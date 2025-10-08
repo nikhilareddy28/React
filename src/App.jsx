@@ -10,6 +10,7 @@ import Component2 from './Component2'
 import Task from './Task'
 import Mental from './test'
 import Routing_Mechanism from './Routing_Mechanism'
+import ImageEntity_TemporaryPath from './ImageEntitty_TemporaryPath'
 
 
 
@@ -59,7 +60,8 @@ function App() {
       <Component2 /> */}
       {/* <Task /> */}
       {/* <Mental /> */}
-      <Routing_Mechanism/>
+      {/* <Routing_Mechanism/> */}
+      <ImageEntity_TemporaryPath />
     </>
   )
 
