@@ -11,6 +11,8 @@ import Task from './Task'
 import Mental from './test'
 import Routing_Mechanism from './Routing_Mechanism'
 import ImageEntity_TemporaryPath from './ImageEntitty_TemporaryPath'
+import Taskreact from './Taskreact'
+import Form1 from './Form1'
 
 
 
@@ -61,7 +63,9 @@ function App() {
       {/* <Task /> */}
       {/* <Mental /> */}
       {/* <Routing_Mechanism/> */}
-      <ImageEntity_TemporaryPath />
+      {/* <ImageEntity_TemporaryPath /> */}
+      <Taskreact/>
+      <Form1/>
     </>
   )
 
