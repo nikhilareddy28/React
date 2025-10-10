@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import './Taskreact.css';
-function Taskreact(){
 
+function Taskreact(){
+     const[data,setdata]=useState();
    return(
     <>
        <div className="heading">
-           <button>Add</button>
-           <button>Preview</button>
+           <button className="submits">Add</button>
+           <button className="submits">Preview</button>
        </div>
     </>
    )

@@ -4,28 +4,28 @@ import './FunctionComponent.css'
 function Task(){
     const [CompleteData,setCompleteData]=useState([
         {
-            "name":"sai"
+            "name":"rarerabbit"
         },
         {
-            "name":"sri"
+            "name":"teamspirit"
         },
         {
-            "name":"namitha"
+            "name":"gucci"
         },
         {
-            "name":"nikhila"
+            "name":"us-polo"
         },
         {
-            "name":"durga"
+            "name":"titan"
         },
         {
-            "name":"dharani"
+            "name":"casio"
         },
         {
-            "name":"uma"
+            "name":"crocs"
         },
         {
-            "name":"hasee"
+            "name":"sketchers"
         }
     ])
     const [QueryResult,setQueryResult]=useState([])
@@ -44,7 +44,8 @@ function Task(){
     },[UserQuery])
     return(
         <>
-        <input type="text" placeholder="Search..." onChange={(event)=>Capture(event)}/>
+        <div className="serach">
+        <input type="text" placeholder="Search..." onChange={(event)=>Capture(event)}/> </div>
         <div className="parent">
             {
             QueryResult.map((ele)=>{

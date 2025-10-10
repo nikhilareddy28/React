@@ -7,11 +7,12 @@ body{
     display:flex;
     flex-wrap: wrap;
     gap: 10px;
+    margin-top: 150px;
 }
 .card1{
-    height: 300px;
-    width: 300px;
-    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(1, 1, 17);
     border-radius: 15px;
     
 }
@@ -23,4 +24,9 @@ body{
     color: blue;
     display: flex;
     flex-direction: column;
+}
+.search{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }

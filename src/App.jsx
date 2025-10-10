@@ -66,7 +66,8 @@ function App() {
       {/* <ImageEntity_TemporaryPath /> */}
       <Taskreact/>
       <Form1/>
-    </>
+      {/* <Task/>    */}
+       </>
   )
 
 }
