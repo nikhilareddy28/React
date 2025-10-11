@@ -45,7 +45,7 @@ function Task(){
     return(
         <>
         <div className="serach">
-        <input type="text" placeholder="Search..." onChange={(event)=>Capture(event)}/> </div>
+        <input type="text" placeholder="Search..." onChange={(event)=>Capture(event)}/> </div>aaaaaaa
         <div className="parent">
             {
             QueryResult.map((ele)=>{
