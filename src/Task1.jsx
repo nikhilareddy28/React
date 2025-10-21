@@ -23,18 +23,17 @@ function Task1() {
   }, [formData.image]);
 
   const handleChange = (e) => {
-    const { name, value, files } = e.target;
-    if (name === "image" && files[0]) {
-      if (formData.image) {
-        URL.revokeObjectURL(formData.image);
-      }
-      const imageUrl = URL.createObjectURL(files[0]);
-      setFormData({ ...formData, image: imageUrl });
-    } else {
-      setFormData({ ...formData, [name]: value });
-    }
-  };
-
+  const { name, value, files } = e.target;
+  if (name === "image" && files[0]) {
+    const reader = new FileReader();
+    reader.onloadend = () => {
+      setFormData({ ...formData, image: reader.result });
+    };
+    reader.readAsDataURL(files[0]);
+  } else {
+    setFormData({ ...formData, [name]: value });
+  }
+};
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!formData.name || !formData.brand || !formData.price) {

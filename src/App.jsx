@@ -13,6 +13,8 @@ import Routing_Mechanism from './Routing_Mechanism'
 import ImageEntity_TemporaryPath from './ImageEntitty_TemporaryPath'
 import Taskreact from './Taskreact'
 import Form1 from './Form1'
+import Task1 from './Task1'
+import Appxchart from './Apexchat'
 
 
 
@@ -64,9 +66,11 @@ function App() {
       {/* <Mental /> */}
       {/* <Routing_Mechanism/> */}
       {/* <ImageEntity_TemporaryPath /> */}
-      <Taskreact/>
-      <Form1/>
+      {/* <Taskreact/>
+      <Form1/> */}
       {/* <Task/>    */}
+      {/* <Task1/> */}
+      <Appxchart/>
        </>
   )
 
