@@ -204,14 +204,15 @@ function Dashboard(){
             <div id="html-dist"></div>
             <div>
              </div>
+             
+          
               <div className="box3">
             <div id="chart">
                 <ReactApexChart options={state3.options} series={state3.series} type="pie" width={380} />
               </div>
             <div id="html-dist"></div>
             </div>
-          
-            </div>
+             </div>
              </div>
            
         
