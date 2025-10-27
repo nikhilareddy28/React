@@ -15,6 +15,8 @@ import Taskreact from './Taskreact'
 import Form1 from './Form1'
 import Task1 from './Task1'
 import Appxchart from './Apexchat'
+import Dashboard from './Dashboard'
+import Project from './Project'
 
 
 
@@ -70,7 +72,9 @@ function App() {
       <Form1/> */}
       {/* <Task/>    */}
       {/* <Task1/> */}
-      <Appxchart/>
+      {/* <Appxchart/> */}
+      {/* <Dashboard/> */}
+      <Project/>
        </>
   )
 
